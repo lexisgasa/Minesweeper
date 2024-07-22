@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 800px;
+  font-family: "Kode Mono", monospace;
+}
+
+.main-heading {
+  margin: 3rem auto;
+  width: max-content;
+  border-bottom: 2px solid black;
+  font-size: 4rem;
+}
