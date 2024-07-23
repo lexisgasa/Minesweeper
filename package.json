@@ -17,6 +17,7 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "husky": "^9.1.1",
-    "serve": "^14.2.3"
+    "serve": "^14.2.3",
+    "typescript": "^5.5.4"
   }
 }
