@@ -1,12 +1,8 @@
 type Cell = {
-  width: number;
-  height: number;
-  hasBomb: boolean;
+  hasMine: boolean;
+  minesAround: number;
 };
 
-type Dashboard = {
-  width: number;
-  height: number;
-  rows: number;
-  columns: number;
+export type Board = {
+  cells: Cell[][];
 };
