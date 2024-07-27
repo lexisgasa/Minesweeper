@@ -1,7 +1,7 @@
 import { createCell } from "../cell/cell.js";
 import { Board } from "./types";
 
-const createSquareBoard = (dimension: number): Board => {
+export const createSquareBoard = (dimension: number): Board => {
   const squareBoard: Board = {
     cells: [],
   };
