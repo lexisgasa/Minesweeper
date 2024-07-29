@@ -1,5 +1,4 @@
 import { createCell } from "../cell/cell.js";
-import { countMinesAround } from "../countMines.js";
 import { Board } from "./types";
 
 export const createSquareBoard = (dimension: number): Board => {
@@ -18,7 +17,4 @@ export const createSquareBoard = (dimension: number): Board => {
   return squareBoard;
 };
 
-const board = createSquareBoard(3);
-debugger;
-
-console.log(countMinesAround(board, 1, 1));
+createSquareBoard(3);

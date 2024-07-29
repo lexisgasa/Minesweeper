@@ -1,4 +1,4 @@
-import { Board } from "./board/types";
+import { Board } from "./types";
 
 export const countMinesAround = (
   board: Board,
